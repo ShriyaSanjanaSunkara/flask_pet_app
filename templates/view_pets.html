@@ -8,11 +8,11 @@
 <body>
     <h1>Pet List</h1>
     <form method="POST">
-        {{ form.hidden_tag() }}
-        {{ form.name.label }} {{ form.name() }}<br>
-        {{ form.age.label }} {{ form.age() }}<br>
-        {{ form.type.label }} {{ form.type() }}<br>
-        {{ form.submit() }}
+        {{ forms.hidden_tag() }}
+        {{ forms.name.label }} {{ forms.name() }}<br>
+        {{ forms.age.label }} {{ forms.age() }}<br>
+        {{ forms.type.label }} {{ forms.type() }}<br>
+        {{ forms.submit() }}
     </form>
     <h2>All Pets</h2>
     <ul>
